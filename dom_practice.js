@@ -9,3 +9,5 @@ const headlines = document.querySelectorAll(".headlines");
 console.log(headlines);
 const liOne = document.querySelector("ol").firstElementChild;
 liOne.style.color = "slateblue";
+const liLast = document.querySelector("ol").lastElementChild;
+liLast.innerText = "Jamboree sandwich at the Jambo-ree";
