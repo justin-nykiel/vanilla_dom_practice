@@ -7,3 +7,5 @@ h2.innerText += "!!!";
 
 const headlines = document.querySelectorAll(".headlines");
 console.log(headlines);
+const liOne = document.querySelector("ol").firstElementChild;
+liOne.style.color = "slateblue";
