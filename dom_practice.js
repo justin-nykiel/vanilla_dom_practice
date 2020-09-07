@@ -14,3 +14,5 @@ liLast.innerText = "Jamboree sandwich at the Jambo-ree";
 const newImg = document.createElement('img');
 newImg.setAttribute("src", "https://lh3.googleusercontent.com/proxy/seyOs6sf0lh8lXDf_OQFgHnqO2Z5A47zw_BrqBccyiX7uR7CncDaf3lF4nN-gcJMUBijFR7zBOpJsS2h6MLiSaw51afwWOQi_ViuhaOJ6wzSjUusUWi5idc0X-7Mrv4tFwfGhED9v7dxZQRsvhdoqT_TVk0");
 document.querySelector("body").appendChild(newImg);
+const removee = document.querySelector("#article");
+removee.remove();
